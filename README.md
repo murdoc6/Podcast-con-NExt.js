@@ -2,7 +2,7 @@
 
 Aplicación de podcast integrada con la API de AudioBoom para aprender Next.js
 
-## ¿Como funciona?
+## ¿Cómo funciona?
 * `npm install` Para instalar las dependencias.
 * `npm run dev` Para iniciar la aplicación en un entorno de desarrollo.
 * `npm run build && npm start` Para iniciar la aplicación en un entorno productivo. 
@@ -10,7 +10,7 @@ Aplicación de podcast integrada con la API de AudioBoom para aprender Next.js
 
 Ver aplicación [Podcast-app](https://podcast-app.paolacalapizco.now.sh/)
 
-## ¿Que es Next.js?
+## ¿Qué es Next.js?
 
 Next.js es un framework para construir aplicaciones web modernas en React. 
 Una de sus principales características es que esta pensado para tener una 
@@ -73,8 +73,8 @@ export default HolaMundo extends React.Component {
 
 ## Style JSX
 
-**Sryle JSX:** Sistema de estilos utilizado por Next.js. Este resuelve problemas
-tipicos de CSS en React.js 
+**Style JSX:** Sistema de estilos utilizado por Next.js. Este resuelve problemas
+típicos de CSS en React.js 
 
 ### ¿Porque Style JSX?
 
@@ -160,12 +160,12 @@ Al trabajar con Server Side Rendering ciertos métodos dejan de funcionar
 ya que estos se ejecutaban en el navegador pero con SSR su ejecución debera
 ser desde el server.
 
-para resolver esta problematica se recomienta la libreria ` isomorphic-fetch`
+Para resolver esta problematica se recomienta la libreria ` isomorphic-fetch`
 
 ```javascript
 npm add isomorphic-fetch
 ```
-lo importamos en nuestra aplicación
+Lo importamos en nuestra aplicación
 
 ```javascript
 import 'isomorphic-fetch'
