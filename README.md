@@ -2,7 +2,7 @@
 
 Aplicación de podcast integrada con la API de AudioBoom para aprender Next.js
 
-## ¿Comno funciona?
+## ¿Como funciona?
 * `npm install` Para instalar las dependencias.
 * `npm run dev` Para iniciar la aplicación en un entorno de desarrollo.
 * `npm run build && npm start` Para iniciar la aplicación en un entorno productivo. 
